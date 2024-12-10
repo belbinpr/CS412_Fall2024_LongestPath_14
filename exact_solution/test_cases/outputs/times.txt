@@ -1,0 +1,13 @@
+test1 took .026885389 seconds to run
+singlepath took .024319737 seconds to run
+cycle took .025661019 seconds to run
+medium took .024827093 seconds to run
+large1 took 1.512831101 seconds to run // v: 10 e: 13
+
+large2 took 16.243285551 seconds to run // v: 11 e: 14
+
+large3 took 15.560194404 seconds to run // v: 11 e: 13
+large4 took 184.930461383 seconds to run // v: 12 e: 13
+
+large5 took 185.299982888 seconds to run // v: 12 e: 14
+large6 took 1.529381208 seconds to run  // v: 10 e : 14 
