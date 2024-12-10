@@ -2,7 +2,7 @@
 import random
 
 # Parameters for the large graph
-num_vertices = 10  # Number of vertices
+num_vertices = 13  # Number of vertices
 num_edges = 14     # Number of edges (ensure this is >= num_vertices - 1 for connectivity)
 max_weight = 100   # Maximum weight of an edge
 
@@ -41,7 +41,7 @@ output = str(num_vertices) + " " + str(num_edges) + "\n"
 output += "\n".join(f"{v1} {v2} {weight}" for (v1, v2), weight in edges.items())
 
 # Save the result to a file (optional) or return as a string
-with open("inputs/large_weighted_graph6.txt", "w") as file:
+with open("inputs/bigtest.txt", "w") as file:
     file.write(output)
 
 print(output[:500])  # Show a preview of the first few edges

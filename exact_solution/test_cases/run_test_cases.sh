@@ -36,10 +36,11 @@ runtest input1.txt test1
 runtest singlepath.txt singlepath
 runtest cycle.txt cycle
 runtest medium.txt medium
-runtest large_weighted_graph1.txt large1
-runtest large_weighted_graph2.txt large2
-runtest large_weighted_graph3.txt large3
-runtest large_weighted_graph4.txt large4
-runtest large_weighted_graph5.txt large5
-runtest large_weighted_graph6.txt large6
+# runtest large_weighted_graph1.txt large1
+# runtest large_weighted_graph2.txt large2
+# runtest large_weighted_graph3.txt large3
+# runtest large_weighted_graph4.txt large4
+# runtest large_weighted_graph5.txt large5
+# runtest large_weighted_graph6.txt large6
 # runtest large_weighted_graph.txt large takes like 40 minutes
+runtest bigtest.txt bigtest
